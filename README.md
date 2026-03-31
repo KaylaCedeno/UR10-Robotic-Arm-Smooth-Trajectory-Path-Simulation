@@ -30,7 +30,7 @@ This project implements a smooth end‑effector trajectory for a UR10 robotic ar
    These load automatically with the scene.
 
 4. **Start the simulation**  
-   Click the **Play** button (▶) in the CoppeliaSim toolbar.  
+   Click the **Play** button in the CoppeliaSim toolbar.  
    The UR10 will begin tracing the smooth flower‑shaped trajectory in real time.
 
 5. **Optional: Modify the trajectory**  
