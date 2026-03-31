@@ -14,24 +14,37 @@ This project implements a smooth end‑effector trajectory for a UR10 robotic ar
 
 
 ## 🧩 How To Run
+Prerequisite
+You must have CoppeliaSim Edu installed on your computer.
+Download it from the official CoppeliaSim website before proceeding.
 
-1. **Open CoppeliaSim Edu**  
-   Launch the CoppeliaSim application on your machine.
+1. Download scene
+Download the file below from the scene/ folder in this repository:
 
-2. **Load the provided scene**  
-   Go to **File → Open Scene…** and select:  
-   ```
-   UR10_Flower_Trajectory.ttt
-   ```
+Code
+scene/UR10_Flower_Trajectory.ttt
+Save it anywhere on your computer.
 
-3. **Verify the scripts are attached**  
-   - The **UR10** model contains the main motion‑control script (IK + trajectory execution).  
-   - The **tip** object contains the drawing/visualization script.  
-   These load automatically with the scene.
+2. Open the Scene in CoppeliaSim
+Launch CoppeliaSim Edu
 
-4. **Start the simulation**  
-   Click the **Play** button in the CoppeliaSim toolbar.  
-   The UR10 will begin tracing the smooth flower‑shaped trajectory in real time.
+Go to File → Open Scene…
 
-5. **Optional: Modify the trajectory**  
-   Inside the UR10 child script, adjust the parametric equations in the `generateTrajectory()` function to draw different shapes (circles, spirals, multi‑petal flowers, etc.).
+Select the downloaded file:
+
+Code
+UR10_Flower_Trajectory.ttt
+The UR10 robot and all associated scripts will load automatically.
+
+3. Start the Simulation
+Click the Play button (▶) in the CoppeliaSim toolbar.
+The UR10 will begin tracing the smooth flower‑shaped trajectory in real time.
+
+4. (Optional) Modify the Trajectory
+To draw different shapes (circles, spirals, multi‑petal flowers, etc.):
+
+Open the UR10 child script
+
+Edit the parametric equations inside the trajectory generation function
+
+Restart the simulation to see the new path
