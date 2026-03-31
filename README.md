@@ -14,17 +14,6 @@ This project implements a smooth end‑effector trajectory for a UR10 robotic ar
 
 
 ## 🧩 How To Run
-Absolutely — here’s a clean, professional **How To Run** section that includes:
-
-- a clear requirement that the user must have **CoppeliaSim installed**  
-- instructions that start with **downloading the `.ttt` scene file from the `scene/` folder**  
-- a smooth, beginner‑friendly flow  
-
-You can paste this directly into your README.
-
----
-
-## 🧩 How To Run
 
 ### **Requirements**
 You must have **CoppeliaSim Edu** installed on your computer.  
