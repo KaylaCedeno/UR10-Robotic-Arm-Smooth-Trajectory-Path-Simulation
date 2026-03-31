@@ -41,6 +41,7 @@ Save it anywhere on your computer.
    ```
 
 The UR10 robot and all associated scripts will load automatically.
+You can also open the scene by double‑clicking it from your file explorer, which can help avoid path‑related loading issues that sometimes occur when opening scenes directly through CoppeliaSim.
 
 ---
 
