@@ -2,6 +2,7 @@
 
 This project implements a smooth end‑effector trajectory for a UR10 robotic arm inside **CoppeliaSim Edu**, using **Lua**, **simIK**, and **parametric curve generation**. The robot traces a continuous flower‑shaped path in 3D space while maintaining a fixed end‑effector orientation. The trajectory is visualized in real time using CoppeliaSim’s drawing API.
 
+<img width="1830" height="756" alt="Screenshot 2026-04-08 190857" src="https://github.com/user-attachments/assets/271cbd3b-00a9-4d00-acfd-2c9e2dd70906" />
 
 ## 🚀 Features
 
