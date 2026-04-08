@@ -17,7 +17,7 @@ This project implements a smooth end‑effector trajectory for a UR10 robotic ar
 ## 🧩 How To Run
 
 ### **Requirements**
-You must have **CoppeliaSim Edu** installed on your computer.  
+You must have **CoppeliaSim** installed on your computer.  
 Download it from the official CoppeliaSim website before proceeding.
 
 ---
